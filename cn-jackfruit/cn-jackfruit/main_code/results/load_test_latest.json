@@ -1,0 +1,298 @@
+{
+  "timestamp_utc": "2026-11-01T13:24:25.771011+00:00",
+  "host": "127.0.0.1",
+  "port": 5050,
+  "requested_clients": 25,
+  "successful_clients": 25,
+  "failed_clients": 0,
+  "completion_rate_percent": 100.0,
+  "total_operations": 125,
+  "test_duration_seconds": 1.2981,
+  "aggregate_operations_per_second": 96.293,
+  "mean_client_throughput_ops_per_second": 12.053,
+  "jain_fairness_index_throughput": 0.6506,
+  "latency_ms": {
+    "mean": 104.887,
+    "median": 65.438,
+    "p95": 397.689,
+    "max": 593.622
+  },
+  "latency_by_operation_ms": {
+    "GET_EXAM": {
+      "count": 25,
+      "mean": 56.772,
+      "p95": 101.859,
+      "max": 102.152
+    },
+    "HELLO": {
+      "count": 25,
+      "mean": 302.954,
+      "p95": 525.935,
+      "max": 593.622
+    },
+    "PING": {
+      "count": 50,
+      "mean": 57.622,
+      "p95": 90.789,
+      "max": 110.748
+    },
+    "SUBMIT": {
+      "count": 25,
+      "mean": 49.463,
+      "p95": 85.27,
+      "max": 102.705
+    }
+  },
+  "clients": [
+    {
+      "client_id": "efcd3650-f0dd-41bd-990f-8062524af3a2",
+      "name": "Student-001",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.14822969998931512,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "1d67ab26-e4c9-41cc-974a-8adb6adbdfd7",
+      "name": "Student-002",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.13757390005048364,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "3384a480-0469-47b9-b1e1-2832f3d05c3d",
+      "name": "Student-003",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.13837519998196512,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "dd16e17a-d18a-44be-a355-38e8ae1c8859",
+      "name": "Student-004",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.36229240003740415,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "4f35f4f0-0f1a-4ec6-9ead-2544c552890f",
+      "name": "Student-005",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.36984379997011274,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "bde59c86-301f-4359-955b-75773795bba6",
+      "name": "Student-006",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.4523672999930568,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "5a5fa025-2a8b-48e5-b809-518c139aa002",
+      "name": "Student-007",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.4653028000029735,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "fcfbc281-200b-42fc-9612-3a56d5c928bc",
+      "name": "Student-008",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.5176394999725744,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "e5466023-bdc0-414a-9f32-c5f4b27901aa",
+      "name": "Student-009",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.4630921999923885,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "b7abbc5f-9033-42d9-a89e-19e96b7465d7",
+      "name": "Student-010",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.5358009000192396,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "110acbf7-f48b-4b08-bc75-68432361245b",
+      "name": "Student-011",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.5207710000104271,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "267b550c-3e6f-4821-8741-66b6fe49f91a",
+      "name": "Student-012",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.5486859000520781,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "ce99e7d5-a2b7-4246-ba3a-e020d4d04a81",
+      "name": "Student-013",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.593226799974218,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "c1405318-fc0f-4f5f-9eb2-ae9c173badc5",
+      "name": "Student-014",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.5859668999910355,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "249c7b73-e5dd-428b-9476-453a28a93461",
+      "name": "Student-015",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6140017000143416,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "3b3ee49a-c5cb-4702-8b41-85507c1f6baf",
+      "name": "Student-016",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6591925999964587,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "1271c4bf-d5d4-467c-bb0b-70d3c45e9f54",
+      "name": "Student-017",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6659121999982744,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "2a27b215-47b3-4bfb-8c15-587ee6ebc2d0",
+      "name": "Student-018",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6603706000023521,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "09b62441-17e8-4b93-8e8a-76a138ea29cf",
+      "name": "Student-019",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6796247999882326,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "9d9f7b00-5426-4195-9eb0-7028648a919a",
+      "name": "Student-020",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.6969733000150882,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "4d8e7ef8-239e-4737-a676-4c7ee9177201",
+      "name": "Student-021",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.7020822999766096,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "4975cb9d-be58-40f2-9dd3-a749e03dceb0",
+      "name": "Student-022",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.703769099956844,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "26bc1e08-1eb5-47ba-820b-5c1a1134e2a8",
+      "name": "Student-023",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.7157404999597929,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "cf2431df-e485-485d-a0e2-fdd2c33e2ae4",
+      "name": "Student-024",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.7177925999858417,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    },
+    {
+      "client_id": "81f80b71-91ba-4f9b-9a4b-b9a8e4a58d46",
+      "name": "Student-025",
+      "success": true,
+      "operations": 5,
+      "elapsed_seconds": 0.712145600002259,
+      "score": 3,
+      "status": "submitted",
+      "error": ""
+    }
+  ]
+}

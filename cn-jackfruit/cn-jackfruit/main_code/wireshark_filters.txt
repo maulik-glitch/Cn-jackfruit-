@@ -1,0 +1,14 @@
+# Main project traffic (replace 5050 if you change the server port)
+tcp.port == 5050
+
+# TCP packets that carry application data
+tcp.port == 5050 && tcp.len > 0
+
+# Retransmissions / congestion symptoms to inspect
+tcp.port == 5050 && (tcp.analysis.retransmission || tcp.analysis.fast_retransmission || tcp.analysis.spurious_retransmission)
+
+# TCP resets and connection setup
+(tcp.port == 5050) && (tcp.flags.reset == 1 || tcp.flags.syn == 1)
+
+# Conversations involving a specific test client (replace with its IP)
+tcp.port == 5050 && ip.addr == 192.168.1.10
