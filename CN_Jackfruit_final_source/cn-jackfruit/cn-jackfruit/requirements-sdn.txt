@@ -1,0 +1,2 @@
+# Optional dependency for the actual OpenFlow controller lab.
+os-ken>=4.0
